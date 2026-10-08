@@ -1,0 +1,36 @@
+body{
+    background-image: url(fond_jaune.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 900px;
+    margin: auto;
+
+}
+fieldset{
+    margin-bottom: 15px;
+    padding: 10px;
+
+}
+legend{
+    padding: 0px 3px ;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+input[type="text"],input[type="email"],input[type="tel"],#m{
+    display: block;
+    margin: 5px;
+    width: 400px;
+}
+#l1{
+    display: block;
+}
+input:focus{
+    background: #eaeaea;
+}
+#m{
+    width: 400px;
+    height: 200px;
+}
+input[type="submit"],input[type="reset"]{
+    width: 100px;
+    margin: 10px;
+}
